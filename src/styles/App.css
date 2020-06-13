@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+	transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+body {
+	font-family: 'Spartan', sans-serif;
+	background-color: hsl(180, 52%, 96%);
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.app--container {
+	width: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+}
+
+/* Laptop: 1024px */
+@media only screen and (max-width: 1024px) {
+}
+
+/* Tablet: 768px */
+@media only screen and (max-width: 768px) {
+}
+
+/* Mobile-Large: 425px */
+@media only screen and (max-width: 425px) {
+}
+
+/* Mobile-Medium: 375px */
+@media only screen and (max-width: 375px) {
+}
+
+/* Mobile-Small: 320px */
+@media only screen and (max-width: 320px) {
+}

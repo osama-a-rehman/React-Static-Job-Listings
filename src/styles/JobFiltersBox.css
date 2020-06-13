@@ -1,0 +1,60 @@
+.job-filters-box--container {
+	padding: 1.5rem 3rem;
+	background-color: white;
+	margin-bottom: 3rem;
+	border-radius: 0.4rem;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0 0.5rem 1rem hsl(180, 29%, 80%);
+}
+
+.job-filters-box--tags-container {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	flex-wrap: wrap;
+}
+
+.job-filters-box--buttons-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.btn {
+	width: 100%;
+	padding: 0.75rem;
+	color: white;
+	border: none;
+	border-radius: 0.5rem;
+	background-color: white;
+	box-shadow: 0 4px 0.1rem hsl(218, 22%, 90%);
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn--transparent {
+	display: inline-block;
+	box-shadow: none;
+	background-color: transparent;
+	border-radius: 0;
+	padding: 0.15rem 0;
+	outline: none;
+}
+
+.btn--clear {
+	border: none;
+	color: hsl(180, 29%, 50%);
+	font-size: 0.8rem;
+	font-weight: bold;
+	border-bottom: 1px solid hsl(180, 29%, 50%);
+}
+
+.btn--clear:hover,
+.btn--clear:focus,
+.btn--clear:active {
+	color: hsl(180, 29%, 40%);
+	border-bottom: 1px solid hsl(180, 29%, 40%);
+}
