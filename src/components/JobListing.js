@@ -17,7 +17,10 @@ const JobListing = ({ listing, tagClickHandler }) => {
 		.length;
 
 	return (
-		<StyledJobListing className="job-listing--container">
+		<StyledJobListing
+			className="job-listing--container"
+			distinctiveFeatures={listing.distinctiveFeatures}
+		>
 			<div className="job-listing--main-container">
 				<div className="job-listing--company-logo-container">
 					<img

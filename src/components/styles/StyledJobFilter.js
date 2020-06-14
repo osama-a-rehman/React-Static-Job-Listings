@@ -9,6 +9,7 @@ export const StyledJobFilter = styled.div`
 	border-radius: 0.25rem;
 	background-color: hsl(180, 52%, 96%);
 	margin-right: 1rem;
+	margin-bottom: 0.5rem;
 	max-height: 2rem;
 `;
 

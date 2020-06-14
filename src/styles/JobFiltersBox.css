@@ -13,6 +13,7 @@
 	flex-direction: row;
 	flex-grow: 1;
 	flex-wrap: wrap;
+	margin-bottom: -0.5rem;
 }
 
 .job-filters-box--buttons-container {
@@ -57,4 +58,27 @@
 .btn--clear:active {
 	color: hsl(180, 29%, 40%);
 	border-bottom: 1px solid hsl(180, 29%, 40%);
+}
+
+/* Laptop: 1024px */
+@media only screen and (max-width: 1024px) {
+}
+
+/* Tablet: 768px */
+@media only screen and (max-width: 768px) {
+	.job-filters-box--container {
+		padding: 1rem;
+	}
+}
+
+/* Mobile-Large: 425px */
+@media only screen and (max-width: 425px) {
+}
+
+/* Mobile-Medium: 375px */
+@media only screen and (max-width: 375px) {
+}
+
+/* Mobile-Small: 320px */
+@media only screen and (max-width: 320px) {
 }

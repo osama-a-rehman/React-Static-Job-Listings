@@ -214,6 +214,36 @@ export const jobListings = [
 			JOB_TAG_JAVASCRIPT,
 		],
 	},
+
+	// Dummy Job Listing with all job tags to test styles
+	// {
+	// 	id: uuidv4(),
+	// 	companyLogoImageSrc: theAirFilterCompanyImg,
+	// 	companyName: 'My Air Filter Company',
+	// 	distinctiveFeatures: [],
+	// 	jobTitle: 'Front-end Dev',
+	// 	postTime: new Date(),
+	// 	jobType: JOB_TYPE_PART_TIME,
+	// 	jobLocale: 'Worldwide',
+	// 	tags: [
+	// 		JOB_TAG_FRONTEND,
+	// 		JOB_TAG_SENIOR,
+	// 		JOB_TAG_HTML,
+	// 		JOB_TAG_CSS,
+	// 		JOB_TAG_JAVASCRIPT,
+	// 		JOB_TAG_FULL_STACK,
+	// 		JOB_TAG_MIDWEIGHT,
+	// 		JOB_TAG_REACT,
+	// 		JOB_TAG_PYTHON,
+	// 		JOB_TAG_JUNIOR,
+	// 		JOB_TAG_SASS,
+	// 		JOB_TAG_RUBY,
+	// 		JOB_TAG_BACKEND,
+	// 		JOB_TAG_ROR,
+	// 		JOB_TAG_VUE,
+	// 		JOB_TAG_DJANGO,
+	// 	],
+	// },
 ];
 
 export const getFilteredListings = (listings, filters) => {
