@@ -5,6 +5,7 @@ import {
 	StyledFilterSpan,
 	StyledRemoveButton,
 } from './styles/StyledJobFilter';
+import removeImg from '../assets/images/icon-remove.svg';
 
 const JobFilter = ({ filter, removeFilterHandler }) => {
 	return (
@@ -17,7 +18,7 @@ const JobFilter = ({ filter, removeFilterHandler }) => {
 			</StyledFilterSpan>
 
 			<StyledRemoveButton className="job-filter--remove-button">
-				<img src="/assets/images/icon-remove.svg" alt="Remove" />
+				<img src={removeImg} alt="Remove" />
 			</StyledRemoveButton>
 		</StyledJobFilter>
 	);
