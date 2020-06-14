@@ -251,9 +251,7 @@ export const getFilteredListings = (listings, filters) => {
 		return listings;
 	}
 
-	const filtersSet = new Set(filters);
-
 	return listings.filter((listing) =>
-		listing.tags.reduce((exist, tag) => exist || filtersSet.has(tag), false)
+		filters.every((filter) => listing.tags.includes(filter))
 	);
 };
