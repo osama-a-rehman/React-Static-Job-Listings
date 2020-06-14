@@ -13,3 +13,26 @@
 	height: 100%;
 	object-fit: cover;
 }
+
+/* Laptop: 1024px */
+@media only screen and (max-width: 1024px) {
+}
+
+/* Tablet: 768px */
+@media only screen and (max-width: 768px) {
+	.header--container {
+		background-image: url('/assets/images/bg-header-mobile.svg');
+	}
+}
+
+/* Mobile-Large: 425px */
+@media only screen and (max-width: 425px) {
+}
+
+/* Mobile-Medium: 375px */
+@media only screen and (max-width: 375px) {
+}
+
+/* Mobile-Small: 320px */
+@media only screen and (max-width: 320px) {
+}
